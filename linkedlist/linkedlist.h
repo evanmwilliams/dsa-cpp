@@ -2,6 +2,7 @@
 
 #include <string>
 #include <memory>
+#include <stdexcept>
 
 template <typename T>
 class LinkedList

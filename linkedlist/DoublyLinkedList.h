@@ -49,6 +49,10 @@ template <typename T>
 DoublyLinkedList<T>::~DoublyLinkedList()
 {
   clear();
+  head->next = nullptr; 
+  head->prev = nullptr; 
+  tail->next = nullptr; 
+  tail->prev = nullptr; 
 }
 
 template <typename T>
