@@ -2,6 +2,7 @@
 
 #include <string>
 #include <utility>
+#include <stdexcept>
 
 template <typename T>
 class Vector
